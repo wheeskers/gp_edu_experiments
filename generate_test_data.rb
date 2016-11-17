@@ -9,8 +9,8 @@ data_files = [ 'some_data0.csv',
                'some_data4.csv'  ]
 
 time_stamp       = Time::new
-time_stamp_start = Time::parse("2016-10-20 08:20:00")
-time_stamp_stop  = Time::parse("2016-10-20 13:40:00")
+time_stamp_start = Time::parse("2016-10-20 08:15:30")
+time_stamp_stop  = Time::parse("2016-10-20 16:45:00")
 
 data_files.each do |out_file|
   time_stamp = time_stamp_start
